@@ -29,7 +29,6 @@ export const taskController={
     async update(req:Request<UpdateTaskInputType["params"]>,res:Response){
         const taskId=req.params.id;
         const data=req.body;
-        console.log('data for edit',data);
         return await taskManage.update(taskId,data,res);
     },
      async getTask(req:Request<{id:string}>,res:Response){
