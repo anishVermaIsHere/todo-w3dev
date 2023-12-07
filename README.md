@@ -10,11 +10,11 @@
 
 2. Then inside directory, run command **`git clone https://github.com/anishVermaIsHere/todo-w3dev.git`**.
 
-3. If you cloned the repo, create **`.env`** file inside the **`client`** folder and create these variable **VITE_BASE_URL='http://localhost:5000/api/v1'** you can replace **5000** any other PORT NO. as per your choice.
+3. If you cloned the repo, create **`.env`** file inside the **`client`** folder and create these variable **`VITE_BASE_URL='http://localhost:5000/api/v1'`** you can replace **5000** any other PORT NO. as per your choice.
 
-4. Now, you have to run command **npm install** or **npm i** in the terminal.
+4. Now, you have to run command **`npm install`** or **`npm i`** in the terminal.
 
-5. After installation of all dependencies, you have to run last command **npm run dev**
+5. After installation of all dependencies, you have to run last command **`npm run dev`**
 
 6. Now your React App will run successfully.
   
@@ -23,10 +23,10 @@
 Similary as above frontend, follow all steps as above except **STEP 3**
 
 **Addtional steps**
-1. After created the **.env** file inside the **api** folder create these variables 
-**SERVER_PORT=5000
+1. After created the **`.env`** file inside the **`api`** folder create these variables 
+**`SERVER_PORT=5000
 SALT=10
-DB_URI="************************************"** this URI is confidential, so that you have to create your own URI inside **DB_URI=<YOUR MONGODB URL>**
+DB_URI="************************************"`** this URI is confidential, so that you have to create your own URI inside **`DB_URI=<YOUR MONGODB URL>`**
 
 2. Now, you follow steps **STEP 4 and 5** as above
 
@@ -34,9 +34,9 @@ DB_URI="************************************"** this URI is confidential, so tha
 
 1. Make sure you must be installed **Docker**, if not download it here (https://www.docker.com/products/docker-desktop/)
 
-2. Open new terminal or command prompt, go to inside the directory **todolist/api/**..
+2. Open new terminal or command prompt, go to inside the directory **`todolist/api/`**..
 
-3. Run the command **docker compose up** and then it will run your API container. 
+3. Run the command **`docker compose up`** and then it will run your API container. 
 
 **Screenshots**
 
