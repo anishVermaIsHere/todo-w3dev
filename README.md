@@ -38,6 +38,10 @@ DB_URI="************************************"`** this URI is confidential, so th
 
 3. Run the command **`docker compose up`** and then it will run your API container. 
 
+
+**Screen Recorded Link**
+(https://www.loom.com/share/38daec822cde4d44aa723cfd6a84200e?sid=5073dd55-ca77-461a-ae6c-cee428197364)
+
 **Screenshots**
 
 ![001](https://github.com/anishVermaIsHere/todo-w3dev/assets/97972189/184b28c2-1dbb-4d15-92b8-3a70d3cce54e)
