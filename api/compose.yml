@@ -1,0 +1,22 @@
+
+version: '1'
+
+services:
+  mongo_db:
+    container_name: db_container
+    image: mongo:latest
+    volumes:
+      - mongo_db:/data/db 
+    restart: always
+
+  todo: 
+    build: .
+    ports: 
+      - 4000:5000
+    env_file:
+      - .env
+    depends_on:
+      - mongo_db
+
+volumes:
+  mongo_db: {}

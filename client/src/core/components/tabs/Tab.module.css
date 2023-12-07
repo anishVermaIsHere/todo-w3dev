@@ -1,0 +1,4 @@
+
+.activeTab {
+    @apply border-gray-600;
+}
