@@ -14,7 +14,7 @@ type TaskFormPropsType={
 export interface FormValues {
   title: string;
   description: string;
-  tags:string[];
+  tags:string|string[];
   duedate: string;
   status:string;
 }
@@ -73,11 +73,10 @@ const TaskForm:FC<TaskFormPropsType> = ({
           initialValues={isEdit?editValues:initalValues}
           onSubmit={async (values:FormValues) => {
             const taskAPI=new TaskAPI();
-
             if(isEdit){
               const formValues={
                 ...values,
-                tags:values.tags
+                tags:(values.tags as string).split(',')
               }
               const id=formValues.id;
               delete formValues["id"];
@@ -87,7 +86,7 @@ const TaskForm:FC<TaskFormPropsType> = ({
             } else {
               const formValues={
                 ...values,
-                tags:values.tags.split(',')
+                tags:(values.tags as string).split(',')
               }
               await taskAPI.add(formValues);
               setIsUpdate(!isUpdate);
