@@ -26,6 +26,10 @@
 
 **Screenshots**
 
+![001](https://github.com/anishVermaIsHere/todo-w3dev/assets/97972189/184b28c2-1dbb-4d15-92b8-3a70d3cce54e)
+
+![002](https://github.com/anishVermaIsHere/todo-w3dev/assets/97972189/eec14738-743e-4bfb-84d3-bbf9ea81b9a5)
+
 
 
 
